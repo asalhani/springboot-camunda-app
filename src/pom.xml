@@ -72,7 +72,7 @@
         </dependency>
 
         <!-- CAMUNDA DEPS START -->
-        <!--
+
         <dependency>
             <groupId>org.camunda.bpm.springboot</groupId>
             <artifactId>camunda-bpm-spring-boot-starter</artifactId>
@@ -120,7 +120,7 @@
             <artifactId>camunda-bpm-spring-boot-starter-external-task-client</artifactId>
             <version>${camunda.spring-boot.version}</version>
         </dependency>
-        -->
+
         <!-- CAMUNDA DEPS END -->
 
     </dependencies>
