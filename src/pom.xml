@@ -62,11 +62,17 @@
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
             <artifactId>mssql-jdbc</artifactId>
             <scope>runtime</scope>
         </dependency>
 
+        <!-- CAMUNDA DEPS START -->
+        <!--
         <dependency>
             <groupId>org.camunda.bpm.springboot</groupId>
             <artifactId>camunda-bpm-spring-boot-starter</artifactId>
@@ -90,20 +96,18 @@
             <artifactId>camunda-spin-dataformat-all</artifactId>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.camunda.bpm/camunda-engine-plugin-spin -->
         <dependency>
             <groupId>org.camunda.bpm</groupId>
             <artifactId>camunda-engine-plugin-spin</artifactId>
             <version>7.20.0</version>
         </dependency>
 
-        <!-- GraalVM JavaScript Engine -->
         <dependency>
             <groupId>org.graalvm.js</groupId>
             <artifactId>js</artifactId>
             <version>21.3.3</version>
         </dependency>
-        <!-- GraalVM JavaScript ScriptEngine -->
+
         <dependency>
             <groupId>org.graalvm.js</groupId>
             <artifactId>js-scriptengine</artifactId>
@@ -116,6 +120,8 @@
             <artifactId>camunda-bpm-spring-boot-starter-external-task-client</artifactId>
             <version>${camunda.spring-boot.version}</version>
         </dependency>
+        -->
+        <!-- CAMUNDA DEPS END -->
 
     </dependencies>
 
