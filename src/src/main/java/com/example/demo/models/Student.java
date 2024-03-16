@@ -1,7 +1,6 @@
 package com.example.demo.models;
 
 import jakarta.persistence.*;
-import org.hibernate.annotations.GeneratedColumn;
 
 @Entity
 @Table
